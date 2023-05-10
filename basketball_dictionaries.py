@@ -74,6 +74,10 @@ picks = [
 # Create a list of Player instances from the list of dictionaries
 new_team = []
 for player in picks:
-    new_team.append(str(Player(player)))
+    new_player= str(Player(player))
+    new_team.append(new_player)
 print(new_team)
-
+print(type(new_team))
+print(new_team[0])
+print(new_team[1])
+print(new_team[2])
